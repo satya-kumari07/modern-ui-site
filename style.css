@@ -198,3 +198,31 @@ header{
   justify-content: space-between;
   margin-block: 30px;
 }
+@media (max-width: 768px) {
+  .header-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header-left {
+    max-width: 100%;
+  }
+
+  .header-right img {
+    width: 100%;
+  }
+
+  .features-card {
+    max-width: 100%;
+  }
+
+  .examples-card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .nav-links ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
